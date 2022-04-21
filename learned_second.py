@@ -21,8 +21,8 @@ import nltk
 nltk.download('punkt')
 import warnings
 warnings.filterwarnings(action = 'ignore')
-# %pip install bloom_filter
-# %pip install tensorflow_hub
+%pip install bloom_filter
+%pip install tensorflow_hub
 from tensorflow.keras.preprocessing.text import one_hot
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import Sequential
