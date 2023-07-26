@@ -1,1 +1,3 @@
+##LearnedBloomFilter
 
+A Traditional Bloom Filter neither considers the distribution of keys(Malicious) nor how they differ from non-keys(non-malicious). The learned model helps to define and understand the distribution of data and overall advances the performance of the Traditional Bloom Filter and also minimizes index space and the number of false positives. Bloom Filter has zero False negative rates and a specific False Positive rate for the known data. The learned model ensures a specific False Positive Rate for realistic queries as well. we followed the two approaches where in the first approach Bloom Filter is implemented as a Classification problem and using Model Hashes in the second approach and further compare the results with the traditional Bloom filter.
